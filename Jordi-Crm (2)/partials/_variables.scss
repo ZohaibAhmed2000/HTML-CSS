@@ -1,0 +1,98 @@
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
+$base-font-family		: 'Nunito', sans-serif;
+$heading-font-family	:  'Nunito', sans-serif;
+$sub-heading-font-family: 'Nunito', sans-serif;
+$paragraph-font-family	: 'Nunito', sans-serif;
+
+$font-special			: 	'Nunito', sans-serif;
+$font-another-special 	: 	'Poppins';
+$icon-font-family   	:   'FontAwesome';
+
+$base-line-height		: 	28px;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+	
+$base-font-size			: 	14px !default;
+$font-size-h1			: 	60px;
+$font-size-h2			: 	46px;
+$font-size-h3			: 	36px;
+$font-size-h4			: 	28px;
+$font-size-h5			: 	24px;
+$font-size-h6			: 	20px;
+
+$font-size-xsmall		: 	12px;
+$font-size-small		: 	16px;
+$font-size-medium		: 	18px;
+$font-size-large		: 	20px;
+$font-size-xlarge		: 	24px;
+
+$font-weight-black		: 	900;
+$font-weight-bold		: 	700;
+$font-weight-semi-bold	: 	500;
+$font-weight-normal		: 	400;
+$font-weight-light		: 	300;
+$font-weight-thin		: 	100;
+
+
+$font-size-h1-res			: 	40px;
+$font-size-h2-res			: 	34px;
+$font-size-h3-res			: 	24px;
+$font-size-h4-res			: 	20px;
+$font-size-h5-res			: 	16px;
+$font-size-h6-res			: 	14px;
+
+
+//== Color Variation
+//
+//## Text color, Background color, Border color.
+
+$theme-default	: 	#222943;
+$theme-white	: 	#F9FAFE;
+$theme-black	: 	#000000;
+$theme-grey		: 	#878787;
+$theme-silver	: 	#f8f8f8;
+$theme-lg-grey	: 	#F1F2F5;;
+$theme-sp-grey	: 	#7e8082;
+$theme-dk-grey 	: 	#222222;
+$theme-sp-blue	:	#f3f9f9;
+$theme-lg-black :   #151515;
+$theme-lg-white : 	#FFFFFFB5;
+$theme-dk-pink	:   #C6C6C6;
+$theme-lg-black	: 	#434343;
+$theme-danger 	: 	#970303;
+$theme-danger2 	: 	#F64D3C;
+$theme-warning 	: 	rgba(255, 152, 0, 1);
+$theme-success 	: 	#3DD88B;
+$theme-lg-pink 	: 	#FE0F0F;
+$theme-purple 	: 	#4B0082;
+$theme-dk-green	: 	#4c4c4c;
+// $theme-lg-white	: 	#f0f2f5;
+$theme-lg-silver: 	#B3B3B3;
+$theme-lg-blue 	:  	#3D5975;
+$theme-dk-blue	:   #10121E;
+
+// Theme Colors
+
+$theme-primary	: #00ACEF;
+$theme-middle	: 	#BCBEC6;
+$theme-secondary:  #373737;
+;
+$theme-blue 	: 	#5aafe4;
+$theme-pink		:	#ff5ee1;
+
+$link-color		: 	#ffffff;
+
+//== Sprite Path
+//
+
+$sprite-image			: 	"sprite.png";
+$media-basepath			: 	"images";
+$full-path				: 	"#{$media-basepath}/#{$sprite-image}";
+
+
+// Icon Fonts Path
+$icomoon-font-path: "assets-web/icon-fonts/fonts" !default;

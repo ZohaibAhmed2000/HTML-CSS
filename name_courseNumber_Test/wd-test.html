@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        /* background-color: #2196F3; */
+        padding: 5px;
+    }
+
+    .grid-item {
+        /* background-color: rgba(255, 255, 255, 0.8); */
+        /* border: 1px solid rgba(0, 0, 0, 0.8); */
+        border-right: 1px solid grey;
+        padding: 5px;
+        font-size: 16px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <div class="banner-text">
+            <h1>Healthy Living</h1>
+        </div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">HOme</div>
+        <div class="grid-item">Interact</div>
+        <div class="grid-item">Shop</div>
+        <div class="grid-item">Recipies</div>
+        <div class="grid-item">About</div>
+        <div class="grid-item">Contact</div>
+        <div class="grid-item"></div>
+    </div>
+    <div class="required">
+        <p>Please Complete the form to register.Required fields are indicated by a *</p>
+    </div>
+    <div class="form">
+        <h3>Create an account</h3>
+        <div class="fields" >
+            <div>
+                Name
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+        <div class="fields" >
+            <div>
+                Email Address
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+        <div class="fields" >
+            <div>
+                Password
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+        <div class="fields">
+            <div>
+               Confirm Password
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+    </div>
+
+    <div class="form">
+        <h3>Your Adress</h3>
+        <div class="fields" >
+            <div>
+                Address Line1
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+        <div class="fields" >
+            <div>
+                Address Line2
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+        <div class="fields" >
+            <div>
+                Town/City
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+        <div class="fields">
+            <div>
+               Zip/Post Code
+            </div>
+            <div>
+                <input type="text">
+            </div>
+        </div>
+    </div>
+
+    <div class="Submit">
+        <button>Submit</button>
+    </div>
+</body>
+
+</html>

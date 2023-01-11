@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 20vh;
+}
+
+.banner-text{
+    height: 150px;
+    width: 100%;
+    background-image: url("../images/grasswithsky.png");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
+}
+
+.form{
+    background-color: #CFEFE2;
+    padding-left: 2px;
+    margin-top: 25px;
+}
+.form .fields{
+    display: flex;
+    padding: 5px 30px;
+    justify-content: space-between;
+}
+.form .fields input{
+    width: 600px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.Submit{
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+    height: 5vh;
+    background-color: #CFEFE2;
+}
+.Submit button{
+    width: 200px;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #8EC0B6;
+    border: 2px solid #A4D5CD;
+}

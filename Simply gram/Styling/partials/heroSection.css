@@ -1,0 +1,21 @@
+.hero-section-12 {
+    position: relative;
+}
+
+.border-img{
+
+    width: 100%;
+}
+.border-img img{
+    width: 797px;
+    position: absolute;
+    left: -17%;
+    border-radius: 8px 0px;
+}
+
+.green-bar{
+    background-color: #04D26A; 
+    height: 13vh;
+    width: 100%;
+    border-radius: 1.5rem;
+}

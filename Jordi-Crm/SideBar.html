@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en" class="no-js" lang="">
+
+<head>
+  <title>Hanty CRM - Dashboard</title>
+  <meta charset="Crowd Funding Site">
+  <meta name="description" content="Just a New Crowd Bull New Website">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="images/faq.png">
+  <link rel="stylesheet" href="style.css">
+  <!--  Flatpicker Styles  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/flatpickr.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.2.3/themes/light.css">
+</head>
+
+
+<body class="Homepage">
+    
+    <div class="col-md-3 side-bar col-nopadd">
+        <div class="box shadow">
+          <!-- Sidebar Navigation  -->
+          <nav class="pn">
+            <div class="logo">
+              <img src="images/logo.svg">
+            </div>
+            <ul class="main">
+              <li class="menu-item active">
+                <a href="board.html">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="11.121" height="13.346"
+                      viewBox="0 0 11.121 13.346">
+                      <path id="file_1_" data-name="file (1)"
+                        d="M11.981,3.078,10.043,1.14A3.869,3.869,0,0,0,7.291,0H4.78A2.784,2.784,0,0,0,2,2.78v7.785a2.784,2.784,0,0,0,2.78,2.78h5.561a2.784,2.784,0,0,0,2.78-2.78V5.83a3.865,3.865,0,0,0-1.14-2.752Zm-.786.786a2.771,2.771,0,0,1,.434.584h-2.4a.556.556,0,0,1-.556-.556v-2.4a2.786,2.786,0,0,1,.584.434Zm.815,6.7a1.668,1.668,0,0,1-1.668,1.668H4.78a1.668,1.668,0,0,1-1.668-1.668V2.78A1.668,1.668,0,0,1,4.78,1.112H7.291c.091,0,.18.018.27.026V3.893A1.668,1.668,0,0,0,9.229,5.561h2.754c.008.09.026.178.026.27Z"
+                        transform="translate(-2 0)" fill="#373737" />
+                    </svg>
+
+                  </span> Boards
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="13.345" height="13.346"
+                      viewBox="0 0 13.345 13.346">
+                      <path id="briefcase"
+                        d="M10.565,2.224H9.953A2.785,2.785,0,0,0,7.229,0H6.117A2.785,2.785,0,0,0,3.392,2.224H2.78A2.784,2.784,0,0,0,0,5v5.561a2.784,2.784,0,0,0,2.78,2.78h7.785a2.784,2.784,0,0,0,2.78-2.78V5a2.784,2.784,0,0,0-2.78-2.78ZM6.117,1.112H7.229A1.668,1.668,0,0,1,8.795,2.224H4.551A1.668,1.668,0,0,1,6.117,1.112ZM2.78,3.336h7.785A1.668,1.668,0,0,1,12.233,5V6.673H1.112V5A1.668,1.668,0,0,1,2.78,3.336Zm7.785,8.9H2.78a1.668,1.668,0,0,1-1.668-1.668V7.785h5v.556a.556.556,0,1,0,1.112,0V7.785h5v2.78A1.668,1.668,0,0,1,10.565,12.234Z"
+                        fill="#373737" />
+                    </svg>
+
+                  </span> Achieved Jobs
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="12.845" height="15.414"
+                      viewBox="0 0 12.845 15.414">
+                      <g id="Group_216" data-name="Group 216" transform="translate(0 0)">
+                        <path id="file-invoice_1_" data-name="file-invoice (1)"
+                          d="M13.529,3.556,11.29,1.318A4.467,4.467,0,0,0,8.111,0h-2.9A3.214,3.214,0,0,0,2,3.212V12.2a3.215,3.215,0,0,0,3.211,3.211h6.423A3.215,3.215,0,0,0,14.845,12.2V6.735a4.468,4.468,0,0,0-1.317-3.179Zm-.908.908a3.231,3.231,0,0,1,.517.674H10.349A.643.643,0,0,1,9.707,4.5V1.708a3.215,3.215,0,0,1,.674.517L12.62,4.464Zm.94,7.74a1.929,1.929,0,0,1-1.927,1.927H5.211A1.929,1.929,0,0,1,3.285,12.2V3.212A1.929,1.929,0,0,1,5.211,1.285h2.9c.1,0,.209.005.311.015V4.5a1.929,1.929,0,0,0,1.927,1.927h3.2c.01.1.015.207.015.312V12.2Zm-1.285-.963v0ZM4.569,6.423a.643.643,0,0,1,.642-.642H6.5a.642.642,0,0,1,0,1.285H5.211A.643.643,0,0,1,4.569,6.423Zm0-2.569a.643.643,0,0,1,.642-.642H6.5A.642.642,0,0,1,6.5,4.5H5.211A.643.643,0,0,1,4.569,3.854Z"
+                          transform="translate(-2 -0.001)" fill="#373737" />
+                        <g id="Group_215" data-name="Group 215" transform="translate(6.676 8.457)">
+                          <line id="Line_46" data-name="Line 46" x1="3" y2="3" fill="none" stroke="#373737"
+                            stroke-linecap="round" stroke-width="1" />
+                          <line id="Line_47" data-name="Line 47" x2="3" y2="3" fill="none" stroke="#373737"
+                            stroke-linecap="round" stroke-width="1" />
+                        </g>
+                      </g>
+                    </svg>
+
+                  </span> Rejected Jobs
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="13.097" height="13.097"
+                      viewBox="0 0 13.097 13.097">
+                      <g id="stats_1_" data-name="stats (1)" transform="translate(0 0)">
+                        <path id="Path_123" data-name="Path 123"
+                          d="M3,11.46A1.364,1.364,0,0,1,1.637,10.1V.819A.819.819,0,0,0,.819,0h0A.819.819,0,0,0,0,.819V10.1a3,3,0,0,0,3,3h9.277a.819.819,0,0,0,.819-.819h0a.819.819,0,0,0-.819-.819Z"
+                          transform="translate(0 0)" fill="#373737" />
+                        <path id="Path_124" data-name="Path 124"
+                          d="M18.819,13.911a.819.819,0,0,0,.819-.819V9.819a.819.819,0,1,0-1.637,0v3.274A.819.819,0,0,0,18.819,13.911Z"
+                          transform="translate(-8.178 -4.088)" fill="#373737" />
+                        <path id="Path_125" data-name="Path 125"
+                          d="M6.819,13.911a.819.819,0,0,0,.819-.819V9.819A.819.819,0,1,0,6,9.819v3.274A.819.819,0,0,0,6.819,13.911Z"
+                          transform="translate(-2.726 -4.088)" fill="#373737" />
+                        <path id="Path_126" data-name="Path 126"
+                          d="M12.819,11.64a.819.819,0,0,0,.819-.819v-6a.819.819,0,1,0-1.637,0v6A.819.819,0,0,0,12.819,11.64Z"
+                          transform="translate(-5.452 -1.817)" fill="#373737" />
+                      </g>
+                    </svg>
+
+                  </span> Statistics
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="13.098" height="13.156"
+                      viewBox="0 0 13.098 13.156">
+                      <g id="time-past" transform="translate(0 0)">
+                        <path id="Path_127" data-name="Path 127"
+                          d="M6.625,0A6.6,6.6,0,0,0,2.262,1.666L1.531.936A.548.548,0,0,0,.6,1.323V3.837a.548.548,0,0,0,.548.548H3.657a.548.548,0,0,0,.388-.936l-.622-.622A4.934,4.934,0,1,1,1.747,7.3a.828.828,0,0,0-.815-.721h0a.816.816,0,0,0-.821.912,6.588,6.588,0,0,0,6.774,5.661A6.64,6.64,0,0,0,13.2,6.838,6.585,6.585,0,0,0,6.625,0Z"
+                          transform="translate(-0.105 0)" fill="#373737" />
+                        <path id="Path_128" data-name="Path 128"
+                          d="M10.822,7h0A.822.822,0,0,0,10,7.822v2.353a1.1,1.1,0,0,0,.321.775l.983.983a.822.822,0,1,0,1.163-1.163l-.822-.822V7.822A.822.822,0,0,0,10.822,7Z"
+                          transform="translate(-4.577 -3.163)" fill="#373737" />
+                      </g>
+                    </svg>
+
+                  </span> History
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+
+
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="13.345" height="13.346"
+                      viewBox="0 0 13.345 13.346">
+                      <path id="calendar-lines"
+                        d="M10.565,1.112h-.556V.556A.556.556,0,1,0,8.9.556v.556H4.448V.556a.556.556,0,1,0-1.112,0v.556H2.78A2.783,2.783,0,0,0,0,3.893v6.673a2.783,2.783,0,0,0,2.78,2.78h7.785a2.783,2.783,0,0,0,2.78-2.78V3.893A2.783,2.783,0,0,0,10.565,1.112ZM2.78,2.224h7.785a1.67,1.67,0,0,1,1.668,1.668v.556H1.112V3.893A1.67,1.67,0,0,1,2.78,2.224Zm7.785,10.009H2.78a1.67,1.67,0,0,1-1.668-1.668v-5H12.233v5A1.67,1.67,0,0,1,10.565,12.234Zm0-4.449a.556.556,0,0,1-.556.556H3.336a.556.556,0,0,1,0-1.112h6.673A.556.556,0,0,1,10.565,7.785ZM6.673,10.009a.556.556,0,0,1-.556.556H3.336a.556.556,0,0,1,0-1.112h2.78A.556.556,0,0,1,6.673,10.009Z"
+                        fill="#373737" />
+                    </svg>
+
+                  </span> Calendar
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="11.121" height="13.346"
+                      viewBox="0 0 11.121 13.346">
+                      <path id="file_1_" data-name="file (1)"
+                        d="M11.981,3.078,10.043,1.14A3.869,3.869,0,0,0,7.291,0H4.78A2.784,2.784,0,0,0,2,2.78v7.785a2.784,2.784,0,0,0,2.78,2.78h5.561a2.784,2.784,0,0,0,2.78-2.78V5.83a3.865,3.865,0,0,0-1.14-2.752Zm-.786.786a2.771,2.771,0,0,1,.434.584h-2.4a.556.556,0,0,1-.556-.556v-2.4a2.786,2.786,0,0,1,.584.434Zm.815,6.7a1.668,1.668,0,0,1-1.668,1.668H4.78a1.668,1.668,0,0,1-1.668-1.668V2.78A1.668,1.668,0,0,1,4.78,1.112H7.291c.091,0,.18.018.27.026V3.893A1.668,1.668,0,0,0,9.229,5.561h2.754c.008.09.026.178.026.27Z"
+                        transform="translate(-2 0)" fill="#373737" />
+                    </svg>
+
+                  </span> Draft
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span><svg xmlns="http://www.w3.org/2000/svg" width="12.232" height="14.679"
+                      viewBox="0 0 12.232 14.679">
+                      <g id="trash" transform="translate(-0.001 0)">
+                        <path id="Path_100" data-name="Path 100"
+                          d="M13.62,2.446h-1.9A3.064,3.064,0,0,0,8.728,0H7.5a3.064,3.064,0,0,0-3,2.446h-1.9a.612.612,0,0,0,0,1.223h.612v7.951a3.062,3.062,0,0,0,3.058,3.058h3.67a3.062,3.062,0,0,0,3.058-3.058V3.67h.612a.612.612,0,0,0,0-1.223ZM7.5,1.223H8.728a1.838,1.838,0,0,1,1.73,1.223H5.774A1.838,1.838,0,0,1,7.5,1.223Zm4.281,10.4a1.835,1.835,0,0,1-1.835,1.835H6.281a1.835,1.835,0,0,1-1.835-1.835V3.67h7.339Z"
+                          transform="translate(-1.999 0)" fill="#373737" />
+                        <path id="Path_101" data-name="Path 101"
+                          d="M9.612,14.893a.612.612,0,0,0,.612-.612v-3.67a.612.612,0,1,0-1.223,0v3.67A.612.612,0,0,0,9.612,14.893Z"
+                          transform="translate(-4.718 -3.884)" fill="#373737" />
+                        <path id="Path_102" data-name="Path 102"
+                          d="M13.612,14.893a.612.612,0,0,0,.612-.612v-3.67a.612.612,0,1,0-1.223,0v3.67A.612.612,0,0,0,13.612,14.893Z"
+                          transform="translate(-6.272 -3.884)" fill="#373737" />
+                      </g>
+                    </svg>
+
+                  </span> Trash
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-- Side bar Closed  -->
+
+</body>

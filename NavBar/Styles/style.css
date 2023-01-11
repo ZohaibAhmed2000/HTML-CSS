@@ -1,0 +1,14 @@
+.hover{
+    color: rgb(2, 0, 0);
+                background-color: #ffffff;
+                border: 1px solid #ffffff;
+                padding: 8px 15px;
+                border-radius: 4px;
+                font-size: 0.8rem;
+                font-weight: 600;
+}
+
+.hover:hover{
+    background-color: #F04E45;
+    color: white;
+}

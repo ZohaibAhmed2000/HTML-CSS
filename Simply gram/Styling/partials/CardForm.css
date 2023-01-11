@@ -1,0 +1,37 @@
+.form-top{
+    background-image: linear-gradient(to right, #7A1983, #E76344);
+    padding: 15px 20px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+.number-custom{
+    background-color: #fff;
+    width: 45px;
+    padding: 8px 0;
+    height: 45px;
+    font-size: 22px;
+    font-weight: 700;
+    border-radius: 50%;
+}
+.from-up{
+    padding: 30px 40px;
+}
+
+.card-img{
+    background-image: url('https://www.simplygram.com/wp-content/plugins/woocommerce-gateway-authorize-net-cim/vendor/skyverge/wc-plugin-framework/woocommerce/payment-gateway/assets/images/card-cc-plain.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 50px 31px;
+}
+.place-order{
+    width: 100%;
+    padding: 10px;
+    font-weight: 1000;
+    font-size: 1.2em;
+    border: none;
+    background-color: #04D26A;
+    border-radius: 3rem;
+}
+.left-divider{
+    border-left:1px solid grey ;
+}

@@ -1,0 +1,355 @@
+ul {
+	&.icons-list{
+		display: flex;
+		list-style: none;
+		gap: 15px;
+		align-items: center;
+		justify-content: flex-end;
+		padding-right: 12px;
+		li{
+			svg{
+				height: 17px;
+				width: auto;
+				&.danger{
+					path{
+						fill: $theme-danger;
+					}
+				}
+			}
+			&:hover{
+				path{
+					fill: $theme-primary;
+				}
+			}
+		}
+
+	}
+	&.inbox-notification {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		flex-flow: column;
+		// gap: 12px;
+		// margin-top: 20px;
+		li {
+			width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    // border-bottom: 1px solid #00000024;
+    padding: 10px 10px;
+    border-radius: 6px 6px 0 0;
+			.name{
+				font-size: 14px;
+				font-weight: 400;
+			}
+			.messgae{
+				color: $theme-grey;
+			}
+			&.unread{
+				.name,.messgae{
+					font-weight:600 ;
+				}
+			}
+			&:hover{
+				background-color: rgba($theme-silver,.71);
+			}
+		}
+	}
+
+	&.only-icon-list {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		gap: 8px;
+
+		li {
+			cursor: pointer;
+
+			&:hover {
+				path {
+					fill: $theme-primary;
+				}
+			}
+		}
+	}
+
+	&.icon-tabs {
+		list-style: none;
+		display: flex;
+		align-items: center;
+
+		li {
+
+			display: flex;
+			align-items: center;
+			padding: 5px 10px;
+			gap: 8px;
+			cursor: pointer;
+			color: $theme-grey;
+
+			svg {
+				path {
+					fill: $theme-grey
+				}
+			}
+
+			&:hover,
+			&.active {
+				color: $theme-default;
+
+				svg {
+					path {
+						fill: $theme-default
+					}
+				}
+			}
+
+			&:first-of-type {
+				padding-left: 0px;
+			}
+		}
+	}
+
+	&.selectbox {
+		height: 30px;
+		width: 150px;
+		border: 1px #000 solid;
+
+		li {
+			padding: 5px 10px;
+			z-index: 2;
+
+			&:not(.init) {
+				float: left;
+				width: 130px;
+				display: none;
+				background: #ddd;
+			}
+
+			&:not(.init):hover,
+			&.selected:not(.init) {
+				background: #09f;
+			}
+		}
+	}
+
+	&.projectsFilter {
+		list-style: none;
+		text-align: center;
+		display: table;
+		margin: auto;
+
+		li {
+			text-align: center;
+			display: inline-block;
+			padding: 5px 10px;
+			color: $theme-secondary;
+			font-family: $font-special;
+			font-size: 20px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+
+			a {
+				transition: .4s ease;
+				border-bottom: 1px solid transparent;
+				color: #616161;
+			}
+
+			&.active,
+			&:hover {
+				a {
+					color: #333;
+					border-bottom: 1px solid $theme-secondary;
+
+				}
+			}
+		}
+	}
+}
+
+.list {
+	list-style: none;
+
+	li {
+		margin-bottom: 10px;
+		font-size: 16px;
+		color: $theme-grey;
+	}
+
+	li:before {
+		font-family: 'FontAwesome';
+		content: '\f0e7';
+		margin: 0 5px 0 -15px;
+		color: $theme-dk-grey;
+	}
+}
+
+.amenities-list {
+	list-style: none;
+
+	li {
+		padding: 10px;
+		margin-bottom: 15px;
+		text-align: center;
+
+		img {
+			margin: auto;
+		}
+
+		p {
+			padding-top: 10px;
+			font-size: 16px;
+		}
+	}
+}
+
+.benefits-list {
+	margin-top: 20px;
+	list-style: none;
+
+	li {
+		font-size: 20px;
+		padding-left: 26px;
+		line-height: 1.5;
+		// font-weight: 500;
+		position: relative;
+
+
+		&:before {
+			font-family: 'FontAwesome';
+			position: absolute;
+			left: 0;
+			top: 3px;
+			// background:center / contain no-repeat url('images/arrow.png') ; 
+			content: "\f054";
+			font-size: 16px;
+			color: $theme-secondary;
+			width: 15px;
+			height: 15px;
+			line-height: 1.3;
+		}
+	}
+}
+
+.arrow-list {
+	margin-top: 20px;
+
+	li {
+		position: relative;
+		padding-left: 26px;
+		color: white;
+		font-weight: 300;
+		font-size: 16px;
+		padding-bottom: 10px;
+
+		&:before {
+			// font-family: 'FontAwesome';
+			position: absolute;
+			left: 0;
+			top: 3px;
+			background: center / contain no-repeat url('images/arrow.png');
+			content: "";
+			// font-size: 16px;
+			width: 15px;
+			height: 15px;
+			line-height: 1.3;
+		}
+	}
+
+	&.fc-white {
+		a {
+			color: $theme-white;
+		}
+	}
+}
+
+.citizenship-template {
+
+	ul,
+	.arrow-list-primary {
+		// margin-top: 20px;
+		list-style: none;
+
+		li {
+			position: relative;
+			padding-left: 20px;
+			color: white;
+			font-weight: 400;
+			// font-size: 16px;
+			padding-bottom: 7px;
+			color: #333;
+
+			&:before {
+				// font-family: 'FontAwesome';
+				position: absolute;
+				left: 0;
+				top: 3px;
+				background: center / contain no-repeat url('images/arrow.png');
+				content: "\f054";
+				font-size: 10px;
+				color: $theme-secondary;
+				font-family: FontAwesome;
+				width: 15px;
+				height: 15px;
+				line-height: 1.3;
+			}
+		}
+
+	}
+}
+
+.single-template {
+
+
+	ul,
+	.arrow-list-primary {
+		// margin-top: 20px;
+		list-style: none;
+
+		li {
+			position: relative;
+			padding-left: 26px;
+			color: white;
+			font-weight: 400;
+			// font-size: 16px;
+			padding-bottom: 7px;
+			color: #333;
+
+			&:before {
+				// font-family: 'FontAwesome';
+				position: absolute;
+				left: 0;
+				top: 3px;
+				background: center / contain no-repeat url('images/arrow.png');
+				content: "\f058";
+				// font-size: 16px;
+				color: $theme-primary;
+				font-family: FontAwesome;
+				width: 15px;
+				height: 15px;
+				line-height: 1.3;
+			}
+		}
+
+	}
+}
+
+
+.tick-list {
+	li {
+		padding-left: 30px;
+		position: relative;
+
+		&:before {
+			font-family: 'FontAwesome';
+			content: "\f00c";
+			position: absolute;
+			left: 0;
+			top: 0;
+			color: $theme-primary;
+		}
+	}
+}
